@@ -18,7 +18,7 @@ function getmenu() {
 
 function add_item() {
   var htmldata;
-  var imgtags = '<img id="im1" src="pizzaImg.png">';
+  var imgtags = '<img id="im1" src="./assets/pizzaImg.png">';
   var item = document.getElementById("add_item").value;
   menu_list_array.sort();
   htmldata = "";
