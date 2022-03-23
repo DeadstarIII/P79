@@ -1,6 +1,5 @@
 body {
-  background-image: url("imagesBg.jpg");
-
+  background-image: url("./assets/imagesBg.jpg");
 }
 
 .topnav {
@@ -19,6 +18,9 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.display_menu {
+  display: inline-flex;
 }
 
 .topnav a:hover {
